@@ -1,0 +1,16 @@
+{
+  "name": "giskard-silly-mission-control",
+  "version": "0.0.1",
+  "description": "Because lately, mission control is a terrible mess",
+  "main": "src/silly.js",
+  "author": "Victor Gama <hey@vito.io>",
+  "contributors": [],
+  "license": "MIT",
+  "giskard": {
+    "module": "GiskardSillyMissionControl",
+    "created": "Tue Oct 11 2016 13:02:26 GMT-0300 (BRT)",
+    "help": {
+    }
+  },
+  "dependencies": {}
+}
