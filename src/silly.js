@@ -5,7 +5,7 @@ var Silly = function(bot) {
     var lastReaction = undefined;
     this.hear(/IH/, (response) => {
         if(response.channel.name === 'mission-control') {
-            if(!lastReaction || (Date.now() - lastReaction) > 1000 * 60 * 10) {
+            if(!lastReaction || (Date.now() - lastReaction) > 1000 * 60 * 30) {
                 response.channel.send('IH');
                 lastReaction = Date.now();
             }
